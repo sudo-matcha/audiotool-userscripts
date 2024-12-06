@@ -3,8 +3,8 @@
 // @namespace   Violentmonkey Scripts
 // @match       https://studio.audiotool.com/*
 // @grant       none
-// @version     1.2.1
-// @author      -
+// @version     1.2.2
+// @author      sudo-matcha
 // @require     https://code.jquery.com/jquery-3.7.1.min.js
 // @require     https://raw.githubusercontent.com/brandonaaron/livequery/refs/heads/master/jquery.livequery.min.js
 // @icon        https://www.audiotool.com/favicon.ico
@@ -98,6 +98,9 @@ $(document).livequery("div.dialog", (dialog) => {
   });
   $(dialog).livequery("button", (button) => {
     button.style.borderRadius = "3px"
+  });
+  $(dialog).livequery("label", (label) => {
+    label.style.color = atBlue;
   });
 });
 
@@ -201,5 +204,3 @@ $(document).livequery("button.default.selected", (buttonSel) => {
 }, (buttonUnsel) => {
   buttonUnsel.style.textShadow = "none"
 });
-
-// this is a change!
