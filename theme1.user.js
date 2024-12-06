@@ -3,7 +3,7 @@
 // @namespace   Violentmonkey Scripts
 // @match       https://studio.audiotool.com/*
 // @grant       none
-// @version     1.2
+// @version     1.2.1
 // @author      -
 // @require     https://code.jquery.com/jquery-3.7.1.min.js
 // @require     https://raw.githubusercontent.com/brandonaaron/livequery/refs/heads/master/jquery.livequery.min.js
