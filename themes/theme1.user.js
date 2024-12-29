@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name        Audiotool Theme [Local]
+// @name        Audiotool Theme
 // @namespace   Violentmonkey Scripts
 // @match       https://studio.audiotool.com/*
 // @grant       none
